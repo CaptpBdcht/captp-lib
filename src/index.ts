@@ -1,8 +1,7 @@
-import { sayHelloWorld, plus42 } from './util';
-
+import { Stack } from './stack';
+ 
 const Captp = {
-    sayHelloWorld,
-    plus42
+    Stack
 };
 
 export { Captp };
