@@ -1,7 +1,5 @@
 import { Stack } from './stack';
  
-const Captp = {
+export {
     Stack
 };
-
-export { Captp };

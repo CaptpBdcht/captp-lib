@@ -1,5 +1,4 @@
 import { expect } from 'chai';
-
 import { Stack } from '../src/stack';
 
 describe('Stack', () => {
@@ -49,10 +48,11 @@ describe('Stack', () => {
 
     it('can be pushed upon', () => {
         const s = new Stack<number>();
-        expect(s.size()).to.equal(0);
-        s.push(42);
+        s.push(21);
         expect(s.size()).to.equal(1);
+        expect(s.peek()).to.equal(21);
         s.push(42);
         expect(s.size()).to.equal(2);
+        expect(s.peek()).to.equal(42);
     });
 });

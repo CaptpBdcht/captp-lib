@@ -6,9 +6,7 @@ export class Stack<T> {
     }
 
     peek(): T | undefined {
-        return this.isEmpty()
-            ? undefined
-            : this.items[this.items.length - 1];
+        return this.isEmpty() ? undefined : this.items[this.items.length - 1];
     }
 
     pop(): T | undefined {
