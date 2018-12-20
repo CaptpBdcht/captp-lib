@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Stack } from '../src/stack';
+import { Stack } from '../src';
 
 describe('Stack', () => {
 
@@ -41,7 +41,7 @@ describe('Stack', () => {
         expect(s.size()).to.equal(1);
     });
 
-    it('cannot be popped when empty', () => {
+    it('cannot pop when empty', () => {
         const s = new Stack<number>();
         expect(s.pop()).to.be.undefined;
     });
