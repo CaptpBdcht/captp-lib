@@ -1,0 +1,9 @@
+{
+  "name": "captp-lib",
+  "version": "1.0.0",
+  "description": "An awesome lib!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "CaptpBdcht",
+  "license": "ISC"
+}
